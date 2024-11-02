@@ -29,3 +29,41 @@
 //   console.log(greetUser(userName, msg));
 // }
 // greet();
+
+/*Union Types*/
+
+// let userName: string | number = "Anwar";
+
+// userName = 2610;
+
+// console.log(userName);
+
+// let arr: string[] = ['Mehran', 'Civic', 'Vitz'];
+
+// console.log(arr);
+
+/*Mix Array*/
+
+// let mixArr: (string | number)[] = ['Apple', 'Banana', 6, 9];
+
+// console.log(mixArr);
+
+// let userName: any = 'Anwar';
+
+// userName = 26;
+
+// userName = true;
+
+// console.log(userName);
+
+/* Making custome types or aliases  */
+
+type Mixed = string | number | boolean;
+
+let userName: Mixed = "Anwar";
+
+let rollNum: Mixed = 29123;
+
+let isFeePaid: Mixed = true;
+
+console.log(userName, rollNum, isFeePaid);
