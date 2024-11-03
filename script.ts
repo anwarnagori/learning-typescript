@@ -58,12 +58,12 @@
 
 /* Making custome types or aliases  */
 
-type Mixed = string | number | boolean;
+// type Mixed = string | number | boolean;
 
-let userName: Mixed = "Anwar";
+// let userName: Mixed = "Anwar";
 
-let rollNum: Mixed = 29123;
+// let rollNum: Mixed = 29123;
 
-let isFeePaid: Mixed = true;
+// let isFeePaid: Mixed = true;
 
-console.log(userName, rollNum, isFeePaid);
+// console.log(userName, rollNum, isFeePaid);
